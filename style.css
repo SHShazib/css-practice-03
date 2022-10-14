@@ -1,6 +1,9 @@
 div{
-    margin: 50px;
+    margin: 15px;
     padding: 20px;
+}
+h4{
+    font-weight: 700;
 }
 a{
     text-decoration: none;
@@ -48,6 +51,7 @@ ol,ul{
     list-style-position: inside;
     padding: 20px;
     font-weight: 700;
+    width: 50%;
 }
 ol{
     list-style-type: lower-alpha;
@@ -70,4 +74,48 @@ ul li{
     color: azure;
     padding: 10px;
     margin: 3px;
+}
+table,th,td{
+    border: 3px solid rgb(245, 5, 217);
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.table1 th{
+    background-color: #fafa09;
+}
+th,td{
+    padding: 10px;
+}
+.last{
+    background-color: #3cad3c;
+    color: #0707c7;
+}
+.table th{
+    background-color: #ffffff;
+}
+img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+td:hover,th:hover {
+    color: red;
+    background-color: green;
+}
+.tab{
+    margin: 10px;
+}
+.width{
+    width: 700px;
+    background-color: red;
+    border: 5px solid black;
+}
+.max-width{
+    max-width: 700px;
+    background-color: green;
+    border: 5px solid black;
 }
