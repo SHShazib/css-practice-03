@@ -1,0 +1,73 @@
+div{
+    margin: 50px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+a.google{
+    color: rgb(5, 250, 111);
+    background-color: blueviolet;
+    cursor: pointer;
+}
+a.fb,a.lkn{
+    color: aliceblue;
+    background-color: rgb(7, 135, 248);
+    cursor: default;
+}
+a.yt{
+    color: white;
+    background-color: red;
+    cursor: text;
+}
+a.tw{
+    color: #fff;
+    background-color: rgb(33, 195, 195);
+    cursor: wait;
+}
+a:hover{
+    color: red;
+    background-color: green;
+}
+a:active{
+    color: #f807cf;
+    background-color: blanchedalmond;
+}
+a:visited{
+    color: #fafafa;
+    background-color: black;
+}
+ol,ul{
+    list-style-position: inside;
+    padding: 20px;
+    font-weight: 700;
+}
+ol{
+    list-style-type: lower-alpha;
+    background-color: #f807cf;
+    font-family: 'Trebuchet MS';
+}
+ul{
+    list-style-type: square;
+    background-color: #f3cf1b;
+    font-family: 'sofia';
+}
+ol li {
+    background-color: aqua;
+    color: darkred;
+    padding: 7px;
+    margin: 3px;
+}
+ul li{
+    background-color: #0f4ae1;
+    color: azure;
+    padding: 10px;
+    margin: 3px;
+}
