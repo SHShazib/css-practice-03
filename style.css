@@ -119,3 +119,22 @@ td:hover,th:hover {
     background-color: green;
     border: 5px solid black;
 }
+.fab{
+    font-size: 30px;
+}
+.fa-facebook,.fa-facebook-messenger{
+    color: #056BE1;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-linkedin{
+    color: #0C64C5;
+}
+.fa-youtube{
+    color: #FE0000;
+}
+.fa-google{
+    color: #149E5B;
+}
